@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+body, .page01, .page02 {
+    margin: 0;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 13px;
+    font-weight: 400
+}
+
+ul{
+    margin: 0;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 20px; 
+}
+
+.full-body{
+    /*border: 3px solid blue;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 15px;
+    margin: 0;
+}
+
+/* NAV BAR */
+
+.header {
+   /* border: 2px solid red;*/
+    display: flex;
+    justify-content: space-between;
+    margin:0;
+    padding-top: 10px;
+}
+
+.blog-link, .more-link, .twitter-link, .tiktok-link, .fb-link, .insta-link {
+    color:gray;
+    text-decoration: none;
+}
+
+.blog-link:hover, .more-link:hover, .twitter-link:hover,
+.tiktok-link:hover, .fb-link:hover, .insta-link:hover {
+    color:rgb(227, 154, 20);
+}
+
+/* oklama.html MAIN CONTENT */
+
+.main {
+    /*border: 2px solid green;*/
+    display: flex;
+    height:600px;
+    margin: 0;   
+}
+
+
+/* folders */
+
+.fld {
+    width:65px;
+    height:65px;
+    image-rendering: pixelated;
+}
+
+.master{
+    position: absolute;
+    top:10%;
+    left:55%;
+}
+
+.turning-13-container {
+    /*border:5px solid pink; */
+     display:inline inline-block;
+     position: absolute;
+     top: 65%;
+     left: 60%;
+     
+ }
+
+ .turning-13-title {
+     position: relative;
+     right: 10px;
+     bottom: 19px;
+     
+ }
+
+ .turning-13 {
+     font-weight: normal;
+     font-size: 14px;
+ }
+
+.future {
+    /* border: 5px solid green; */
+     position: absolute;
+     top:45%;
+     left:20%;
+ }
+ 
+ .cake {
+     width:85px;
+     height:85px;
+     position: absolute;
+     top:43%;
+     left:47%;
+     right: 50%;
+ }
+
+ /* FOOTER */
+ .footer{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 7px;
+    color: gray;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 3.5rem;
+}
+
+/*turning 13 styles*/
+p {
+    margin-top: 0;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 13px;
+    font-weight: 400
+}
+
+/*master - page 01*/
+#page01 {
+    background-color: black;
+    margin: 20px;
+    color:white;
+    font-family: "JetBrains Mono", monospace;
+}
+
+.nav-arrow {
+    color:white;
+    text-decoration:none;
+}
+
+/*future - page 02*/
+#page02 {
+    background-color:black;
+    margin:20px;
+    color:white;
+    font-family: "JetBrains Mono", monospace;
+}
+
+h4{
+    color:white;
+    font-weight: 400;
+    font-size:larger;
+    font-family: "JetBrains Mono", monospace;
+}
+
+/*turning 12 - page 03*/
+#page03 {
+    background-color:black;
+    margin:20px;
+    color:white;
+    font-family: "JetBrains Mono", monospace;
+}
+
+.turning-13-page {
+    margin-right: 70%;
+    text-align: left;
+}
+
+.birthday-boy{
+    width:10%;
+    position: absolute;
+    left:100px;
+}
+
+h5 {
+    color:white;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 10px;
+    font-weight: 400
+}
+
+/*tour - page 04*/
+#page04 {
+    background-color:black;
+    margin:20px;
+    color:white;
+}
