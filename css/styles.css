@@ -61,7 +61,7 @@ ul{
     image-rendering: pixelated;
 }
 
-.master{
+.birthday{
     position: absolute;
     top:10%;
     left:55%;
@@ -125,12 +125,18 @@ p {
     font-weight: 400
 }
 
-/*master - page 01*/
+/*may 18 - page 01*/
 #page01 {
     background-color: black;
     margin: 20px;
     color:white;
     font-family: "JetBrains Mono", monospace;
+}
+
+.may-18{
+    width:25%;
+    position: absolute;
+    left:5px;
 }
 
 .nav-arrow {
